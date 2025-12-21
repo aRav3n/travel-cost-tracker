@@ -1,50 +1,170 @@
-# Welcome to your Expo app 👋
+# App Name
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Table of Contents
 
-## Get started
+- [Description](#description)
+- **For End Users**
+   - [Where to Download the App](#where-to-download-the-app)
+   - [Usage and Screenshots](#usage-and-screenshots)
+- **For Developers**
+   - [Installation Instructions](#installation-instructions)
+   - [Technologies Used](#technologies-used)
+   - [Dependencies and Credits](#dependencies-and-credits)
+   - [Project Structure](#project-structure)
 
-1. Install dependencies
+## Description
 
-   ```bash
-   npm install
+Write a paragraph or two describing the project here.
+
+### Features
+- Feature one
+- Feature two
+
+## Where to Download the App
+
+<!-- ******** Add link ************
+[Try it out online](LINK_TO_WEB_DEPLOYMENT)
+-->
+
+<!-- ******** Add link ************
+<a href="https://play.google.com/store/games"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" style="height: 48px; width: auto;"/></a> 
+-->
+
+<!-- ******* Need to get link to badge per: https://f-droid.org/docs/Badges/ ******
+<a href="https://f-droid.org/packages/"><img src="" style="height: 48px; width: auto;"/></a>
+-->
+
+<!-- ******** Add link ************
+<a href="APP_CONFIGURATION_HTML_LINK"><img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" style="height: 48px; width: auto;"/></a>
+-->
+
+## Usage and Screenshots
+
+<img src="./public/screenshot.png" alt="screenshot" style="height: 50vh; width: auto;">
+
+Here's a brief description of how to use the app.
+
+## Installation Instructions
+
+1. Fork this repo
+1. In your copy of the repo click the green **Code** button and copy the URL
+1. If you don't have an Expo account [sign up](https://expo.dev/signup) for one
+1. Open your IDE
+1. ```bash
+   cd YOUR_DIRECTORY_FOR_THIS_APP
    ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
+1. ```bash
+   git clone COPIED_URL
    ```
+1. Run the following in your terminal
+   - ```bash
+     npm init -y
+     npm install
+     ```
+    - ```bash <!-- react-native -->
+      eas login
+      ```    
+1. ```bash <!-- node --> 
+   code schema.prisma 
+   ``` 
+1. ```bash  react native <!-- react native -->
+   npx expo start 
+   ```
+   - If there are [issues](https://docs.expo.dev/get-started/start-developing/#having-problems) run `npx expo start --tunnel` instead <!-- react native -->
+   - `^` + `c` will end the process <!-- all -->
+1. Navigate to the url displayed in the terminal: `➜  Local:   http://localhost:5173/` <!-- react --> 
 
-In the output, you'll find options to open the app in a
+## Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- <a href="https://expo.dev"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" style="height: 2rem; width: auto; vertical-align: middle;"> Expo</a>
+- <a href="https://reactnative.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style="height: 2rem; width: auto;"> React Native</a>
+- <a href="https://vite.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" style="height: 2rem; width: auto; vertical-align: middle;"> Vite </a>
+- <a href="https://react.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style="height: 2rem; width: auto;"> React</a>
+- <a href="https://webpack.js.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg" style="height: 2rem; width: auto;"> Webpack</a>
+- <a href="https://expo.dev"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" style="height: 2rem; width: auto; vertical-align: middle;"> Expo </a>
+- <a href="https://reactnative.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style="height: 2rem; width: auto;"> React Native</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="height: 2rem; width: auto;"> JavaScript</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="height: 2rem; width: auto;"> HTML</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style="height: 2rem; width: auto;"> CSS</a>       
+- <a href="https://nodejs.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" style="height: 2rem; width: auto;"> Node.js</a>
+- <a href="https://expressjs.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style="height: 2rem; width: auto;"> Express</a>
+- <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style="height: 2rem; width: auto;"/> PostgreSQL</a>
+- <a href="https://www.prisma.io/"><img src="https://skillicons.dev/icons?i=prisma" style="height: 2rem; width: auto;"/> Prisma ORM</a>
+- <a href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" style="height: 2rem; width: auto;"/> TypeScript</a>
+- <a href="https://jestjs.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" style="height: 2rem; width: auto;"/> Jest</a>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Development Tools
 
-## Get a fresh project
+- <a href="https://code.visualstudio.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" style="height: 24px; width: auto;"/> VS Code</a>
+- <a href="https://www.npmjs.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg" style="height: 24px; width: auto;"/> NPM</a>
+- <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" style="height: 24px; width: auto;"/> Git</a>
 
-When you're ready, run:
+### Hosting
+
+- <a href="https://www.cloudflare.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" style="height: 24px; width: auto;"/> Cloudflare</a>
+- <a href="https://github.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" style="height: 24px; width: auto;"/> Github</a>
+- <a href="https://neon.com/"><img src="https://neon.com/brand/neon-logomark-light-color.svg" style="height: 24px; width: auto;"/> Neon</a>
+- <a href="https://render.com/"><img src="https://render.com/icon.svg" style="height: 24px; width: auto;"/> Render</a>
+
+
+## Dependencies and Credits
+
+### Package Dependencies
+
+- [packageName](https://www.npmjs.com/package/packageName)
+
+### Other Credits
+
+- [Devicion](https://devicon.dev/)
+- [Skillicons](https://skillicons.dev/)
+
+
+## Project Structure
 
 ```bash
-npm run reset-project
+├──app/                               # Controller files
+   ├──(tabs)/                         # App pages
+      ├──_layout.tsx
+      ├──explore.tsx
+      └──index.tsx
+   ├──_layout.tsx 
+   └──modal.tsx
+├──assets/                            # Compiled queries.js
+   └──images/                         # Image files
+      ├──android-icon-background.png
+      ├──android-icon-foreground.png
+      ├──android-icon-monochrome.png
+      ├──favicon.png
+      ├──icon.png
+      ├──partial-react-logo.png
+      ├──react-logo.png
+      ├──react-logo@2x.png
+      ├──react-logo@3x.png
+      └──splash-icon.png
+├──components/                        # Generated Prisma files
+   ├──ui/                             # UI components
+      ├──collapsible.tsx
+      ├──icon-symbol.ios.tsx
+      └──icon-symbol.tsx
+   ├──external-link.tsx
+   ├──haptic-tab.tsx
+   ├──hello-wave.tsx
+   ├──parallax-scroll-view.tsx
+   ├──themed-text.tsx
+   └──themed-view.tsx
+├──constants/                         # Prisma models and migrations
+   └──theme.ts
+├──hooks/                             # Locally hosted images and icons
+   ├──use-color-scheme.ts
+   ├──use-color-scheme.web.ts
+   └──use-theme-color.ts
+├──scripts/                           # Router files
+   └──reset-project.js
+├──app.json
+├──eslint.config.js
+├──LICENSE
+├──package-lock.json
+├──package.json
+├──README.md
+└──tsconfig.js
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
